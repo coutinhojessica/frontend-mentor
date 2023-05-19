@@ -172,3 +172,14 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+@media (min-width: 200px) and (max-width: 599px){
+    body{
+        height: 1000px;
+    }
+
+    main{
+        flex-direction: column;
+        height: 1000px;
+    }
+}
